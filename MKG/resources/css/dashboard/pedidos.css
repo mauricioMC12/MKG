@@ -1,0 +1,23 @@
+#form{
+    margin-top: 20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#pro{
+    margin-top: 20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#combobox{
+  font-size: 15px;
+  font-style: unset;
+}
+
+  
+  #btn_style{
+    border-radius: 15px 50px;
+    font-style:unset;
+    color: black;
+}

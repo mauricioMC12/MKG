@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    flex:1 0 auto;
+}
+
+
+#card1{
+    text-align: justify;
+    font-size: 90%;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+#card2{
+    text-align: justify;
+    font-size: 90%;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+#card3{
+    text-align: justify;
+    font-size: 90%;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+#lamp{
+    text-align: center;
+}
+

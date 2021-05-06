@@ -1,0 +1,54 @@
+/**/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../../img/Login/1.png");
+    background-size: cover;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+
+#login label{
+font-size: 16%;
+color: black;
+}
+
+#cardlogin{
+   background-image: url("../../img/Login/1.jpg");
+   margin-top: 10%;
+   border-radius: 10px;
+}
+
+#IS{
+    text-align: center;
+    background-image: url("../../img/Login/1.jpg");
+    color:  rgba(22, 35, 158, 0.815);
+}
+
+#nu {
+    color: gray;
+}
+
+#cu {
+    color: gray;
+}
+
+#btnIS{
+    color: rgba(39, 47, 51, 0.904);
+}
+
+#contra{
+    color: rgba(22, 35, 158, 0.815);
+    font-size: 100%;
+}
+
+#register{
+    color:  rgba(22, 35, 158, 0.815);
+    font-size: 100%;
+}

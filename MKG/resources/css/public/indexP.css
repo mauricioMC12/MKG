@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    flex:1 0 auto;
+}
+
+
+#card1{
+    text-align: justify;
+    font-size: 90%;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+#card2{
+    text-align: justify;
+    font-size: 90%;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+#card3{
+    text-align: justify;
+    font-size: 90%;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+img{
+    width: 70%;
+    height: 80%;
+}
+
+#mobile-navbar{
+    background-image:  url(../../img/fondos/1.jpg);
+    background-size: cover;
+}
+#cardsnosotros{
+ color: #000;
+ text-align: center;
+}
+
+#cardGiss{
+    background-image:  url(../../img/fondos/1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+#modalmision{
+    background-image:  url(../../img/fondos/1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+#modalcontactenos{
+    background-image:  url(../../img/fondos/1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+#logocardmision{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+

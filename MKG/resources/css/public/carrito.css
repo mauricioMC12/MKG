@@ -1,0 +1,56 @@
+#imagen{
+    width: 20%;
+    height: 20%;
+}
+
+#cardback{
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#cardsub{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#eliminar{
+    background-color: black;
+}
+
+#estrellas{
+    font-size: 15px;
+    color: rgb(248, 244, 29);
+}
+
+#combobox2{
+    margin-right: 10px;
+}
+
+#card1, #card2, #card3 {
+    margin-left: 10px;
+    
+  }
+
+  #fav{
+    background-color:#b71c1c;
+  }
+
+  #articulo1{
+    height: 200px;
+    width: 200px;
+      display: block;
+  }
+
+  #articulo2{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#articulo3{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
