@@ -33,7 +33,7 @@ log_template::login('Login', '../../resources/css/public/login.css');
                     </div><br>
 
                     <div class="contraseña center">
-                    //cambiar nombre del archivo sin la Ñ 
+                    <!--cambiar nombre del archivo sin la Ñ -->
                         <a href="recuperar_contraseña.php" id="contra">¿Olvidaste tu contraseña?</a>
                     </div><br>
 
