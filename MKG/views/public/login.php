@@ -13,7 +13,7 @@ log_template::login('Login', '../../resources/css/public/login.css');
         <div class="col s12 l12" id="lcard">
             <div class="card col 14 offset-l4" id="cardlogin">
                 <div class="card-action" id="IS">
-                    <h3>Iniciar Sesión</h3>
+                    <h3>Iniciar sesión</h3>
 
                 </div>
                 <div class="card-content">
