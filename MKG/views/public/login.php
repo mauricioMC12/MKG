@@ -19,21 +19,21 @@ log_template::login('Login', '../../resources/css/public/login.css');
                 <div class="card-content">
                     <div class="input-field">
                         <i class="material-icons prefix">account_circle</i>
-                        <input id="icon_prefix" type="text" class="validate" placeholder="Nombre de Usuario">
+                        <input id="icon_prefix" type="text" class="validate" placeholder="Nombre de usuario">
                     </div>
-
                     <div class="input-field">
                         <i class="material-icons prefix">lock</i>
-                        <input id="icon_prefix" type="password" class="validate" placeholder="Contraseña de Usuario">
+                        <input id="icon_prefix" type="password" class="validate" placeholder="Contraseña de usuario">
                     </div>
 
                     <div class="form-field center">
                         <a class="waves-effect waves-light btn-large" href="index.php" id="btnIS"><i
                                 class="material-icons left">
-                                check_circle </i>Iniciar Sesión</a>
+                                check_circle </i>Iniciar sesión</a>
                     </div><br>
 
                     <div class="contraseña center">
+                    //cambiar nombre del archivo sin la Ñ 
                         <a href="recuperar_contraseña.php" id="contra">¿Olvidaste tu contraseña?</a>
                     </div><br>
 
