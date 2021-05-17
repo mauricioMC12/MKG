@@ -23,7 +23,7 @@ log_template::login('Login', '../../resources/css/public/login.css');
                     </div>
                     <div class="input-field">
                         <i class="material-icons prefix">lock</i>
-                        <input id="icon_prefix" type="password" class="validate" placeholder="Contraseña de usuario">
+                        <input id="icon_prefix" type="password" class="validate" placeholder="CONTRASEÑA">
                     </div>
 
                     <div class="form-field center">
