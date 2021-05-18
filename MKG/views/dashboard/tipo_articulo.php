@@ -21,6 +21,7 @@ Dashboard_template::headerDashboard('categoria','../../resources/css/dashboard/i
                         </div>
                         <div class="input-field col s6">
                             <i class="material-icons prefix">account_circle</i>
+                           <!-- cambiar estos  nombres-->
                             <input id="icon_prefix" type="text" class="validate" required>
                             <label for="last_name">Descripción</label>
                         </div>
