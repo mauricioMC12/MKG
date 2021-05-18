@@ -1,66 +1,53 @@
 <?php
-//Se incluye la plantilla del encabezado para la página web
-include('../../app/helpers/dashboard_template.php');
-Dashboard_template::headerDashboard('Bienvenido','../../resources/css/dashboard/index.css');
+//include header log template
+include('../../app/helpers/log_template.php');
+
+log_template::login('Login', '../../resources/css/public/login.css');
 ?>
-<!--Index  <div> </div>-->
+
+<!--Login   <div> </div>-->
 <div class="container">
-    <!--Menu -->
-  <div class="row">
-    <!--Send to Users Management -->
-    <div class="col s6 m6 l3">
-      <div class="card" id="usuarios">
-        <div class="card-image">
-          <a href="usuarios.php" class="tooltipped" data-position="bottom" data-tooltip="Usuario"><img src="../../resources/img/Menu/usuarios.png"></a>
+    <div class="row">
+        <div class="col s12 l12" id="lcard">
+            <div class="card col 14 offset-l4" id="cardlogin">
+                <div class="card-action" id="IS">
+                    <h3>Iniciar sesión</h3>
+
+                </div>
+                <div class="card-content">
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate" placeholder="Nombre de usuario">
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="icon_prefix" type="password" class="validate" placeholder="Contraseña de usuario">
+                    </div>
+
+                    <div class="form-field center">
+                        <a class="waves-effect waves-light btn-large" href="main.php" id="btnIS"><i
+                                class="material-icons left">
+                                check_circle </i>Iniciar sesión</a>
+                    </div><br>
+
+                    <div class="contraseña center">
+                    <!--cambiar nombre del archivo sin la Ñ -->
+                        <a href="recuperar_contraseña.php" id="contra">¿Olvidaste tu contraseña?</a>
+                    </div><br>
+
+                    <div class="registrarme center">
+                        <a href="register.php" id="register">¿No tienes una cuenta? Regístrate</a>
+                    </div><br>
+
+                </div>
+
+            </div>
+
         </div>
-      </div>
+
     </div>
-     <!--Send to supplier Management -->
-    <div class="col s6 m6 l3">
-      <div class="card" id="proveedores">
-        <div class="card-image">
-          <a href="proveedores.php" class="tooltipped" data-position="bottom" data-tooltip="Proveedores"><img src="../../resources/img/Menu/proveedores.png"></a>
-        </div>
-      </div>
-    </div>
-     <!--Send to order Management -->
-    <div class="col s6 m6 l3">
-      <div class="card" id="pedidos">
-        <div class="card-image">
-          <a href="pedidos.php" class="tooltipped" data-position="bottom" data-tooltip="Pedidos"><img src="../../resources/img/Menu/pedidos.png"></a>
-        </div>
-      </div>
-    </div>
-     <!--Send to inventory  Management -->
-    <div class="col s6 m6 l3">
-      <div class="card" id="inventario">
-        <div class="card-image">
-          <a href="inventario.php" class="tooltipped" data-position="bottom" data-tooltip="Inventario"><img src="../../resources/img/Menu/inventario.png"></a>
-        </div>
-      </div>
-    </div>
-   <!----> 
-    <div class="col s6 m6 l3">
-      <div class="card" id="inventario">
-        <div class="card-image">
-          <a href="clientes.php" class="tooltipped" data-position="bottom" data-tooltip="Clientes"><img src="../../resources/img/Menu/inventario.png"></a>
-        </div>
-      </div>
-    </div>
-     <!--Send to invoice Management -->
-    <div class="col s6 m6 l3 ">
-      <div class="card" id="factura">
-        <div class="card-image">
-          <a href="categoria.php"class="tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="../../resources/img/Menu/factura.png"></a>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
-
-
-
 <?php
-//Se incluye la plantilla del pie para la página web
-Dashboard_template::footerDashboard('index_dashboard.js');
+//Include footer log template
+log_template::footerDashboard();
 ?>

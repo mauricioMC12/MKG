@@ -5,8 +5,6 @@ include('../../app/helpers/log_template.php');
 log_template::login('Login', '../../resources/css/public/login.css');
 ?>
 
-
-
 <!--Login   <div> </div>-->
 <div class="container">
     <div class="row">
